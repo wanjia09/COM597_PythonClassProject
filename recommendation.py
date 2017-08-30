@@ -6,7 +6,6 @@
 #step3: calculate the similarity using cosine similarity.
 #step4: for user-to-user CF, setN is a set of users who are most similar to user x and has also rated movie i.
 #step5: for item-to-item CF, setN is a set of movies that are similar to movie i and has also been rated by user x.
-#step6:
 
 import pandas as pd
 import numpy as np
