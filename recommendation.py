@@ -1,5 +1,5 @@
-###pseudo
-#'rating.csv': 'userId', 'movieId', 'rating', 'timestamp'
+### Name: Wanjia Tang
+### Date: June 8, 2017
 
 #step1: read the ratings.csv file into pivot tables
 #step2: normalize the ratings by subtracting the mean and giving all the unrated movies a rating of 0.
