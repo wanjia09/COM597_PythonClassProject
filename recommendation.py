@@ -4,8 +4,10 @@
 #step1: read the ratings.csv file into pivot tables
 #step2: normalize the ratings by subtracting the mean and giving all the unrated movies a rating of 0.
 #step3: calculate the similarity using cosine similarity.
-#step4: for user-to-user CF, setN is a set of users who are most similar to user x and has also rated movie i.
-#step5: for item-to-item CF, setN is a set of movies that are similar to movie i and has also been rated by user x.
+#step4: for user-to-user CF, setN is a set of users who are most similar to user x and has also rated movie i. 
+#       for item-to-item CF, setN is a set of movies that are similar to movie i and has also been rated by user x.
+#step5: for every unwatched film, use setN to caulculate the estimated rating. 
+#step6: sort the ratings to get the top films to recommend. 
 
 import pandas as pd
 import numpy as np
